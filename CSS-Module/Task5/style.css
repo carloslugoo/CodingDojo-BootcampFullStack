@@ -1,0 +1,35 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+}
+
+.main-container {
+    text-align: center;
+    margin: 10px;
+}
+
+img.octocat {
+    height: 200px;
+    margin: 10px;
+}
+
+.container1 {
+    background-color: aqua;
+    padding: 10px;
+    margin: 10px;
+}
+
+.container2 {
+    background-color: white;
+    padding: 10px;
+    margin: 10px;
+}
+
+.container3 {
+    background-color: aquamarine;
+    padding: 10px;
+    margin: 10px;
+}
+
