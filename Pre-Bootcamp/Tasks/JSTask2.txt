@@ -1,0 +1,4 @@
+Diagrama T
+1. Salida: ["Paula", "smith", "Calle principal", "St. Loius","MO", 12345]
+2. Salida: ["brocoli", "helado", "croqueta de papa"]
+3. Salida: ["Bambi", "Beetlejuice", "Toy Story", "Zoro"]

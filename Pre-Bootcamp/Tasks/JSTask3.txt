@@ -1,0 +1,11 @@
+Respuestas:
+1. hello, Dojo
+2. result is 15
+3. result is 18
+4. 15, 10, 15
+5. 15, 10, 20, 15
+6. num is 3, num is 5, result is 16
+7. 2, 5, 3, 8
+8. 2, 5, 3, 8
+9. sum is 5, sum is 8, result is 13
+10.  sum is 5,  sum is 3,  sum is 6,  sum is 3,  sum is 5,  sum is 8, result is 19

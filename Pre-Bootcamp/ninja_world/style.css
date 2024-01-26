@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.row{
+    line-height: 0;
+}
+.wall{
+    background-color: blue;
+    height: 60px;
+    width: 60px;
+    display: inline-block;
+}
+.sushi{
+    background-color: black;
+    height: 60px;
+    width: 60px;
+    display: inline-block;
+    background-image: url("./img/sushi.png");
+    background-size: contain;
+}
+.onigiri{
+    background-color: black;
+    height: 60px;
+    width: 60px;
+    display: inline-block;
+    background-image: url("./img/onigiri.png");
+    background-size: contain;
+}
+.blank{
+    background-color: black;
+    height: 60px;
+    width: 60px;
+    display: inline-block;
+}
+#ninjaman{
+    background-color: black;
+    height: 60px;
+    width: 60px;
+    display: inline-block;
+    background-image: url("./img/ninja.gif");
+    background-size: contain;
+    position: absolute;
+}
+#score{
+    position: absolute;
+    top:600;
+    right: 1250;
+    font-size: 50px;
+    background-color: blue;
+    width: 230px;
+    border: 3px solid;
+    border-radius: 10px;
+}
