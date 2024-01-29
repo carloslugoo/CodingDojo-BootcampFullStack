@@ -1,0 +1,38 @@
+.container {
+    max-width: 800px;
+    margin: auto;
+    text-align: start;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+}
+
+.img-icon {
+    height: 20px;
+    padding-right: 5px;
+}
+
+h2 {
+    margin-bottom: 10px;
+    
+}
+
+.info {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin-bottom: 10px;
+}
+span {
+    display: block;
+    margin-bottom: 5px;
+}
+
+a {
+    color: #007BFF;
+}
+.user{
+    background-color: aquamarine;
+    height: 200px;
+    margin-bottom: 10%;
+}
