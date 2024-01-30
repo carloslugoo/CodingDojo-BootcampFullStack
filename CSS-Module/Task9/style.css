@@ -1,0 +1,140 @@
+.row {
+    display: flex;
+    flex-wrap: wrap; /* Permite que los elementos se envuelvan a la siguiente línea */
+    justify-content: space-between; /* Espacia uniformemente los elementos en el contenedor principal */
+}
+
+.col {
+    flex: 1;
+    margin: 20px;
+}
+
+.col-2 {
+    flex: 3;
+    margin-right: 250px;
+}
+
+body {
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.nav {
+    display: flex;
+    align-items: center;
+    background-color: grey;
+    border-color: white;
+    color: white;
+    padding: 10px;
+}
+
+.nav-title {
+    margin-right: auto;
+    display: flex;
+    list-style: none; 
+}
+
+.nav-links {
+    display: flex;
+    list-style: none; 
+}
+
+.nav-title li {
+    justify-content: flex-end;
+    margin: 28px;
+}
+
+button {
+    background-color: blue;
+    color: white;
+    border-radius: 20px;
+    height: 25px;
+}
+
+.container-profile{
+    max-width: 800px;
+    margin: auto;
+    text-align: start;
+    padding: 0px 0px 10px 0px;
+    border: 1px solid #ddd;
+    margin-top: 20px;
+}
+
+.img-icon {
+    height: 20px;
+    padding-right: 5px;
+}
+
+h2 {
+    margin-bottom: 10px;
+    margin-left: 10px;
+}
+
+.info {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+span {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.edit-profile a {
+    color: #007BFF;
+}
+.sub-info, .info, .edit-profile{
+    margin-left: 10px;
+}
+.user {
+    background-color: grey;
+    height: 200px;
+    margin-bottom: 10%;
+    
+}
+.social-container {
+    width: 400px;
+    margin: auto;
+    text-align: start;
+    padding: 0px 0px 10px 0px;
+    border: 1px solid #ddd;
+    margin-top: 20px;
+    
+}
+
+.title-container {
+    background-color: grey;
+    overflow: hidden;
+    text-align: center
+}
+
+.pendientes {
+    display: flex;
+    margin-top: 10px;
+    margin-left: 4px;
+}
+
+.pendientes img {
+    width: 20px;
+    margin-right: 5px;
+
+}
+
+.int-btn {
+    justify-content: flex-end;
+    align-items: flex-end;
+    margin-left: auto;
+}
+.education-container{
+    width: 800px;
+    padding: 0px 0px 10px 0px;
+    border: 1px solid #ddd;
+}
+.education{
+    margin: 10px;
+}
