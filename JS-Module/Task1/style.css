@@ -1,0 +1,109 @@
+.row {
+    display: flex;
+    flex-wrap: wrap; /* Permite que los elementos se envuelvan a la siguiente línea */
+    justify-content: space-between; /* Espacia uniformemente los elementos en el contenedor principal */
+}
+
+.col {
+    flex: 1;
+    margin: 20px;
+}
+
+.col-2 {
+    flex: 3;
+    margin-right: 250px;
+}
+
+body {
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.nav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: grey;
+    border-color: white;
+    color: white;
+    padding: 10px;
+}
+
+.nav-title {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    list-style: none;
+}
+
+.nav-title li {
+    justify-content: flex-end;
+    margin: 28px;
+}
+
+button {
+    background-color: blue;
+    color: white;
+    border-radius: 20px;
+    height: 25px;
+}
+input {
+    border: 2px solid black;
+    padding: 4px;
+}
+.word-container{
+    width: 800px;
+    padding: 0px 0px 10px 0px;
+    border: 2px solid black;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    display: flex;
+}
+.education{
+    margin: 10px;
+}
+
+.title-container {
+    display: flex;
+    overflow: hidden;
+    text-align: start;
+    align-items: center;
+    flex: 1;
+    flex-direction: column;
+}
+.title-container h2 {
+    margin-right: 10px;
+}
+.info {
+    flex: 2;
+    text-align: center;
+    margin-top: 3%;
+}
+.like-btn{
+    background-color: yellow;
+    color: black;
+    border-radius: 20px;
+    height: 25px;
+}
+.definition-container{
+    width: 220px;
+    border: 2px solid black;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    margin-top: 30px;
+    text-align: center;
+    width: 100%;
+    max-width: 220px;
+}
+.def-btn{
+    background-color: greenyellow;
+    color: black;
+    border-radius: 20px;
+    width: 130px;
+    height: 40px;
+    margin-bottom: 10px;
+}

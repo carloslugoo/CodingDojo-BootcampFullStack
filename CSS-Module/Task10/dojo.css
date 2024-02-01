@@ -1,0 +1,57 @@
+/* CSS reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Clase fixed-width container que se "autocentrará" a sí misma */
+.container {
+    width: 1200px;
+    margin: 0 auto;
+}
+/* Clase btn favorita, usada durante el modulo */
+.btn{
+    background-color: blue;
+    color: white;
+    border-radius: 20px;
+    height: 25px;
+}
+/* Row y col del contenido flexibles */
+.row {
+    display: flex;
+    justify-content: space-between; 
+}
+
+.col {
+    flex: 1;
+    margin: 20px;
+}
+
+
+/* Clase navbar utilizada durante el modulo */
+.navbar {
+    display: flex;
+    align-items: center;
+    background-color: grey;
+    border-color: white;
+    color: white;
+    padding: 10px;
+}
+/* clases random */
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.circulo {
+    height: 25px;
+    width: 25px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+img {
+    width: 20%;
+}
