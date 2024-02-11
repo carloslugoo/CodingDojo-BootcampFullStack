@@ -1,0 +1,170 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.row{
+    max-width: 1080px;
+    margin: 0 auto;
+    display: flex;
+}
+
+.navbar {
+    width: 100%;
+    max-width: 1080px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px;
+    background-color: #ffffff;
+}
+
+.logo-container {
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    background-color: rgb(0,209,178);
+    padding: 10px;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+
+.logoh1 {
+    font-size: 35px;
+}
+
+.inputnav {
+    margin-left: 10px;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 750px;
+}
+
+span {
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.cart-img, .logo-img{
+    width: 25px; 
+}
+.modulos {
+    width: 100%;
+    max-width: 1080px;
+    margin: 20px auto;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #ccc; 
+    padding-bottom: 10px;
+}
+
+.modulos span {
+    cursor: pointer;
+}
+
+.slogan-title{
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    font-size: 35px;
+}
+.discover-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 720px;
+    margin: 0 auto;
+    background-color: rgb(0, 209, 178);
+}
+.discover-text {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+.span1{
+    margin-top: 10%;
+    text-align: center;
+    font-size: 2em;
+    color: white;
+}
+.span2{
+    font-size: 2em;
+    text-align: center;
+    cursor: pointer;
+    color: white;
+    margin-top: 20%;
+}
+.discover-img {
+    width: 50%;
+}
+
+.discover-img img {
+    width: 100%;
+    height: auto;
+}
+.other-container{
+    margin: 0 auto;
+}
+.other-img{
+    padding-bottom: 20px;
+}
+.see-other{
+    height: 70px;
+    background-color: rgb(0, 209, 178);
+    font-size: 1.5em;
+    text-align: start;
+    cursor: pointer;
+    color: white;
+    padding-top: 20px;
+    margin-top: 30px;
+}
+.container-elements{
+    display: flex;
+    justify-content: space-around;
+    max-width: 1063px;
+    margin: 0 auto;
+    background-color: rgb(174,234,233);
+    margin-top: 20px;
+}
+.element {
+    text-align: center;
+    margin: 10px;
+}
+.element img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%; 
+}
+.cookies{
+    width: 100%;
+    max-width: 1030px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px;
+    background-color: #ffffff;
+    border: 3px solid black;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin-bottom: 10px;
+}
+.cookies button{
+    height: 40px;
+    width: 120px;
+    font-size: 1.2em;
+    border-color: black;
+    background-color: rgb(0, 209, 178);
+    box-shadow: 2px 2px black;
+    font-weight: bolder;
+    margin-left: 30px;
+    color: white;
+
+}
+
+
