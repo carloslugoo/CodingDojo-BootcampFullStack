@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pronostico</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- navbar -->
+    <nav class="navbar">
+        <div class="logo-container">
+            <h1 class="logoh1">DojoWeather</h1>
+        </div>
+        <ul>
+            <li><a href="#" onclick="alert('Cargando pronostico..')">Encarnacion</a></li>
+            <li><a href="#" onclick="alert('Cargando pronostico..')">Alto Parana</a></li>
+            <li><a href="#" onclick="alert('Cargando pronostico..')">Cambyreta</a></li>
+        </ul>
+    </nav>
+    <div class="title-container">
+        <div class="city">
+            <h1>Encarnacion</h1>
+        </div>
+        <div>
+            <span>show temperature in</span>
+            <select id="temperature-selector" name="">
+                <option value="c">C</option>
+                <option value="f">F</option>
+            </select>
+        </div>
+    </div>
+    <div class="container-elements">
+        <div class="element">
+            <h1>Hoy</h1>
+            <img src="./assets/some_rain.png" alt="">
+            <span>Lluvia</span>
+            <div class="temp">
+                <span class="max">24</span>
+                <span class="min">18</span>
+            </div>
+        </div>
+        <div class="element">
+            <h1>Mañana</h1>
+            <img src="./assets/some_sun.png" alt="">
+            <span>Soleado</span>
+            <div class="temp">
+                <span class="max">27</span>
+                <span class="min">19</span>
+            </div>
+        </div>
+        <div class="element">
+            <h1>Viernes</h1>
+            <img src="./assets/some_clouds.png" alt="">
+            <span>Nublado</span>
+            <div class="temp">
+                <span class="max">21</span>
+                <spa class="min"n>16</spa>
+            </div>
+        </div>
+        <div class="element">
+            <h1>Sabado</h1>
+            <img src="./assets/some_sun.png" alt="">
+            <span>Soleado</span>
+            <div class="temp">
+                <span class="max">26</span>
+                <span class="min">21</span>
+            </div>
+        </div>
+    </div>
+    <div class="cookies" id="cookiesDiv">
+        <img src="./assets/cookie.png" alt="">
+        <span>This site makes use of third-party cookies, by clicking "I accept" you agree to the terms otlined in our cookie policy</span>
+        <button onclick="buttonAccept(this)">I accept</button>
+    </div>
+</body>
+<script src="script.js"></script>
+</html>
