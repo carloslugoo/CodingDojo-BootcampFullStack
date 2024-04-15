@@ -1,7 +1,7 @@
 const express = require("express");
 const router = express.Router();
 const mongoose = require("mongoose");
-const Store = require("../models/stores.Models"); // Asegúrate de tener el archivo y la ruta correctos para el modelo
+const Store = require("../models/stores.Models"); 
 
 // Conexión a la base de datos
 mongoose
