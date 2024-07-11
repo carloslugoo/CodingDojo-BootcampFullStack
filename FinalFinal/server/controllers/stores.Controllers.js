@@ -54,7 +54,7 @@ router.post("/add", async (req, res) => {
     }
 
     const newStore = new Store({ storeName, number, openStatus });
-    await newStore.save();
+    await newStore.save ();
 
     res.status(201).json(newStore);
   } catch (error) {
